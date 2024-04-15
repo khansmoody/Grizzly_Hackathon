@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grizzly Hackathon</title>
+
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+          font-family: 'Comic Sans MS', cursive, sans-serif;
+          background-color: #d4f4dd;
+          margin: 0;
+          padding: 0;
+          overflow-x: hidden;
+        }
+        header {
+            background-image: url('https://via.placeholder.com/1500x600');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 80px 0;
+            text-align: center;
+            position: relative;
+            height: 100vh;
+        }
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            color: #fff !important;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        section {
+            padding: 80px 0;
+            height: 800px;
+        }
+        h2 {
+            color: #343a40;
+        }
+        .sponsor-logo {
+            max-height: 50px;
+            margin: 20px;
+            filter: grayscale(100%);
+            transition: filter 0.3s;
+        }
+        .sponsor-logo:hover {
+            filter: grayscale(0%);
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .headings {
+          padding-bottom: 5px;
+          font-weight: bold;
+        }
+        .div-img-schedule {
+          padding-top: 50px;
+          text-align: justify;
+        }
+        .img-schedule {
+          height: 400px;
+        }
+        .img-grizzlybear {
+          margin-top: 5px;
+          height: 550px;
+        }
+        .lead {
+          padding-bottom: 30px;
+        }
+        .img-beginner, .img-artistic, .img-thebest {
+          padding-top: 15px;
+          height: 300px;
+        }
+        .prizecomment {
+          font-weight: bold;
+          font-size: 30px;
+        }
+        .schedule {
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header id="home" style="background-image: url(img/Slide1.jpg);">
+        <!--<div class="container">
+            <h1 class="display-3">Grizzly Hackathon</h1>
+            <p class="lead">Let's type the code like a bear!</p>
+        </div>
+      -->
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#introduction">Welcome</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#schedule">Event Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#prize">Prize</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#winners">Winners</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="introduction">
+        <div class="container text-center">
+            <h2 class="headings">Welcome to Our Hackathon</h2>
+            <p class="lead">Let's type the code like a bear!</p>
+            <div>
+              <img class="img-grizzlybear" src="img/grizzlybear.PNG" alt="cutegrizzlybear">
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4" style="font-weight: bold; padding-bottom: 5px;">Contents & Schedule</h2>
+            <p class="schedule">DATE : March 30 2024 / Location : GGC Building B<br><br></p>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>LET THE GAME BEGIN</h3>
+                    <p>Registration and Team Formation</p>
+                    <p>----------------------------------------</p>
+                    <p>9:00 - 9:30<br> Ceremony<br><br></p>
+                    <p>9:30 - 10:00<br> Challenge instructions<br><br></p>
+                    <p>10:00 - 11:00<br> Break Out - Terms<br><br></p>
+                </div>
+                <div class="col-md-4">
+                    <h3>JUST TYPE IT</h3>
+                    <p>Ideation and Development</p>
+                    <p>----------------------------------------</p>
+                    <p>11:00 - 12:30<br> HTML/CSS (RM 1500)<br></p>
+                    <p>11:00 - 12:30<br> REACT (RM 1600)<br></p>
+                    <p>12:30 - 13:30<br> Lunch<br></p>
+                    <p>13:30 - 14:30<br> AI Futures PT1 (Virtual Lecture)<br></p>
+                    <p>14:30 - 15:00<br> Break<br></p>
+                    <p>15:00 - 16:00<br> AI Futures PT2 (Virtual Lecture)<br></p>
+                    <p>- 16:00<br> Project Due<br></p>
+                </div>
+                <div class="col-md-4">
+                    <h3>TIME TO MOVE ON</h3>
+                    <p>Presentations and Judging</p>
+                    <p>----------------------------------------</p>
+                    <p>16:30 - 17:30<br> Judging<br><br></p>
+                    <p>17:30 - 18:00<br> Closing Ceremony<br><br></p>
+                </div>
+                <!--<div class="div-img-schedule">
+                  <img class="img-schedule" src="img/Slide7.jpg" alt="schedule">
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <section id="prize">
+        <div class="container text-center">
+            <h2 class="headings">Prize</h2>
+            <p class="lead">Cloudy With A Chance Of Grizzly Prizes</p>
+
+            <div class="row">
+              <div class="col-md-4">
+                  <h3>Are you a BEGINNER?</h3>
+                  <div>
+                    <img class="img-beginner" src="img/beginner.png" alt="beginner">
+                  </div>
+                  <p><br><br>Then.....</p>
+                  <p>You have a chance to get</p>
+                  <p class="prizecomment">Stuffed Grizzly Bear</p>
+              </div>
+              <div class="col-md-4">
+                  <h3>Are you ARTISTIC?</h3>
+                  <div>
+                    <img class="img-artistic" src="img/artistic.png" alt="artistic">
+                  </div>
+                  <p><br><br>Then.....</p>
+                  <p>You have a chance to get</p>
+                  <p class="prizecomment">Drawing Tablets</p>
+              </div>
+              <div class="col-md-4">
+                  <h3>Are you THE BEST?</h3>
+                  <div>
+                    <img class="img-thebest" src="img/thebest.png" alt="thebest">
+                  </div>
+                  <p><br><br>Then.....</p>
+                  <p>You have a chance to get</p>
+                  <p class="prizecomment">Drawing Tablets</p>
+              </div>
+              <!--<div class="div-img-schedule">
+                <img class="img-schedule" src="img/Slide7.jpg" alt="schedule">
+              </div>-->
+          </div>
+        </div>
+    </section>
+
+
+
+
+    <!--
+      This part is the page for the winners.
+      We would like to attach winner's photos and info after the competetion.
+      It would be good to memorize how this hackathon ended.
+    -->
+    <section id="winners" class="bg-light">
+        <div class="container text-center">
+            <h2 class="headings">! ! Winner ! !</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/150" alt="Best Beginer" class="sponsor-logo">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/150" alt="Best Front Design" class="sponsor-logo">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/150" alt="Best Overall Project" class="sponsor-logo">
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            &copy; 2024 GGC Grizzly Hackathon Website. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
